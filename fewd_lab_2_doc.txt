@@ -1,0 +1,89 @@
+Flavio Pinheiro
+18706
+
+https://github.com/flaviofigpinheiro/fewd_lab_2.git
+
+
+//3. What is the length of the array?
+//4. Write a function called myAlphabetLength which console.logs the length of the
+array.
+
+
+var myAlphabet = ['A', 'B', 'C', 'D','E','F', 'G'];
+function myAlphabetLength(){
+    console.log(myAlphabet.length);
+}
+ myAlphabetLength();
+
+//5. Declare and initialize an array called 'Planets' with 5 string values.
+//6. Console.log each item using index in the array of Planets .
+
+
+var planets = ['Jupiter', 'Saturn', 'Venus', 'Earth', 'Mars'];
+console.log(Planets[0]);
+console.log(Planets[1]);
+console.log(Planets[2]);
+console.log(Planets[3]);
+console.log(Planets[4]);
+
+//7. Declare and initialize an array called wowDatatypes which has 3 different data
+//types (NOT OBJECTS) and console.log the values.
+
+
+var wowDatatypes = [char='T', double=45.85, int=7];
+console.log(wowDatatypes[0]);
+console.log(wowDatatypes[1]);
+console.log(wowDatatypes[2]);
+
+
+//8. Write down the values that are returned for the expressions below.
+
+15
+5
+50
+2
+1
+5
+6
+
+//9. Write down the values that are returned for the below concatenations.
+
+5Hello
+HelloWorld!
+15
+
+
+//10.Write down the values that are returned for the below comparison expressions.
+Note: It’s either true or false .
+
+
+true
+false
+true
+true
+false
+true
+false
+true
+true
+true
+
+// 11. A function is a block of statements that can be executed as often as you like. A
+function can have parameters and can return a value
+// 12. Console.log the hello function.
+
+var hello = function() {
+   return 'Hello World!'; 
+};
+console.log (hello());
+
+
+//13.Which value does x have after executing the following code?
+
+
+Hi!
+
+
+
+
+
